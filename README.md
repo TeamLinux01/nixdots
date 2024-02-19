@@ -20,7 +20,7 @@ As this is a personal repo it is not particulary useful for others, however it c
 1. At the shell prompt, type `sudo su` to switch to a root shell.
 1. Temporarily install git by typing `nix-shell -p git`.
 1. Partition the disks.
-1. Once `/mnt` is mounted, type `git clone -b main https://github.com/colino17/nixdots.git /mnt/etc/nixos` or whatever repo/branch you need.
+1. Once `/mnt` is mounted, type `git clone -b main https://github.com/TeamLinux01/nixdots.git /mnt/etc/nixos` or whatever repo/branch you need.
 1. Type `nixos-generate-config --root /mnt`, it will not overwrite the configuration.nix and only makes the hardware-configuration.nix.
 1. Edit the configuration.nix if needed.
 1. Change directory and install, type `cd /mnt` and `nixos-install`.
